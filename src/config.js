@@ -1,4 +1,6 @@
 export default {
+  MAX_ATTACHMENT_SIZE: 5000000,  // unit: bytes
+  STRIPE_KEY: "pk_live_51H1vt3Cs5i40eOUBbq1OnVd6gamICrKXIJixzhvsKtxTTUXZBpk8rHhoZxY8Id5y3Ta8bXSrvNga7MZ4bp3mS8Kh00QqrreUm6",
   s3: {
     REGION: "us-east-1",
     BUCKET: "notes-app-api-dev-attachmentsbucket-zmimj85poxfm"
