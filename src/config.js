@@ -1,5 +1,6 @@
 const dev = {
   STRIPE_KEY: "pk_live_51H1vt3Cs5i40eOUBbq1OnVd6gamICrKXIJixzhvsKtxTTUXZBpk8rHhoZxY8Id5y3Ta8bXSrvNga7MZ4bp3mS8Kh00QqrreUm6",
+  SENTRY_DSN: "https://f38d51ff78fb46839cd9169ce73bf53f@o459086.ingest.sentry.io/5457705",
   s3: {
     REGION: "us-east-1",
     BUCKET: "notes-app-api-dev-attachmentsbucket-zmimj85poxfm"
@@ -18,6 +19,7 @@ const dev = {
 
 const prod = {
   STRIPE_KEY: "pk_live_51H1vt3Cs5i40eOUBbq1OnVd6gamICrKXIJixzhvsKtxTTUXZBpk8rHhoZxY8Id5y3Ta8bXSrvNga7MZ4bp3mS8Kh00QqrreUm6",
+  SENTRY_DSN: "https://f38d51ff78fb46839cd9169ce73bf53f@o459086.ingest.sentry.io/5457705",
   s3: {
     REGION: "us-east-1",
     BUCKET: "notes-app-api-prod-attachmentsbucket-zmimj85poxfm"
